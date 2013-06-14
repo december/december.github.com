@@ -1,0 +1,40 @@
+{% include header.html %}
+{% include navbar.html %}
+  <div class="well well-header">
+      <ul>
+          <li  class="badge badge-info badge-large pull-right">
+            <a href="/categories.html#{{ page.categories | first}}">分类：{{ page.categories | first}}</a></li>
+      </ul>
+      <ul>
+        {% for tag in page.tags %}
+          <li  class="badge badge-inverse pull-right">
+              <a href="/tags.html#{{ tag }}">{{ tag }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <a class="time-backgroud"></a>
+      <span class="time-meta">{{ page.date | date: "%Y年%m月%d日" }}</span>
+      <h1>{{ page.title }}</h1>
+      <hr>
+      <p>{{ page.description }}</p>
+  </div>
+
+  <div class="well">
+    {{ content }}
+  </div>
+
+  <!-- 底部导航条 -->
+  <div class="nav nav-fix-bottom"  id="nav-fix-bottom">
+      <div class="navbar-panel">
+          <div id="page-nav-list" class="catalog pull-left"></div>
+      </div>
+  </div>
+
+  <link rel="stylesheet" type="text/css" href="/assets/css/monokai.min.css">
+  <script type="text/javascript" src="/assets/js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+{% include comment.html %}
+{% include share.html %}
+{% include footer.html %}

@@ -1,0 +1,29 @@
+<!--多说js加载开始，一个页面只需要加载一次 -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"tang-blog"};
+(function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = 'http://static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script>
+<style type="text/css">
+  #ds-recent-comments li.ds-comment .ds-avatar {
+    left: -25px !important;}
+</style>
+
+<div class="topic well-header">
+  <h3>最近文章：</h3>
+  <ul>
+  {% for post in site.posts limit:5 %}
+    <li>{{ post.date | date: "%Y-%m-%d" }} »»» <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+</div>
+
+<div class="topic well-header">
+  <h3>最近评论：</h3>
+  <ul class="ds-recent-comments" data-num-items="5"></ul>
+</div>

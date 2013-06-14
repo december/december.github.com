@@ -1,0 +1,12 @@
+---
+layout: default
+title: 唐久军的博客
+description: 唐久军的博客, 技术博客, 分享技术, 关注 web，交流学习，共同进步
+---
+
+<div class="well">
+    <span>文章总计： {{ site.posts | size }} 篇</span>
+    <span class="pull-right">最后更新时间：{{ site.time | date: "%Y年%m月%d日" }}</span>
+</div>
+
+{% include ds_recent.html %}
