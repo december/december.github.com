@@ -82,7 +82,7 @@ function anchor_redirect(){
     var topics = getElementsByClassName("hide");
     for( i = 0; i < topics.length; i++ ){
         topics[i].style.display = "none";
-        if( window.location.hash.substr(1) == topics[i].id){
+        if( window.location.hash.substr(7) == topics[i].id){
             topics[i].style.display = "block";
         }
     }

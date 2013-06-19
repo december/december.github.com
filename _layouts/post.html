@@ -3,12 +3,12 @@
   <div class="well well-header">
       <ul>
           <li  class="badge badge-info badge-large pull-right">
-            <a href="/categories.html#{{ page.categories | first}}">分类：{{ page.categories | first}}</a></li>
+            <a href="/categories.html?#anchor{{ page.categories | first}}">分类：{{ page.categories | first}}</a></li>
       </ul>
       <ul>
         {% for tag in page.tags %}
           <li  class="badge badge-inverse pull-right">
-              <a href="/tags.html#{{ tag }}">{{ tag }}</a>
+              <a href="/tags.html?#anchor{{ tag }}">{{ tag }}</a>
           </li>
         {% endfor %}
       </ul>
