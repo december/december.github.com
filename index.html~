@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Ê¦×ùÇé±¨´¦
-description: È¤Î¶ĞÔÇ¿ÓÚ¼¼ÊõĞÔµÄ²©¿Í, ¼ÇÂ¼Ñ§Ï°¾­ÀúºÍ´óÑ§Éú»î£¬»¶Ó­¹âÁÙ£¡
+title: å”ä¹…å†›çš„åšå®¢
+description: å”ä¹…å†›çš„åšå®¢, æŠ€æœ¯åšå®¢, åˆ†äº«æŠ€æœ¯, å…³æ³¨ webï¼Œäº¤æµå­¦ä¹ ï¼Œå…±åŒè¿›æ­¥
 ---
 
 <div class="well">
-    <span>ÎÄÕÂ×Ü¼Æ£º {{ site.posts | size }} Æª</span>
-    <span class="pull-right">×îºó¸üĞÂÊ±¼ä£º{{ site.time | date: "%YÄê%mÔÂ%dÈÕ" }}</span>
+    <span>æ–‡ç« æ€»è®¡ï¼š {{ site.posts | size }} ç¯‡</span>
+    <span class="pull-right">æœ€åæ›´æ–°æ—¶é—´ï¼š{{ site.time | date: "%Yå¹´%mæœˆ%dæ—¥" }}</span>
 </div>
 
 {% include ds_recent.html %}
