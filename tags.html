@@ -1,11 +1,11 @@
----
+ï»¿---
 layout: default
-title: Ê¦×ùÇé±¨´¦£¨±êÇ©£©
-description: È¤Î¶ĞÔÇ¿ÓÚ¼¼ÊõĞÔµÄ²©¿Í, ¼ÇÂ¼Ñ§Ï°¾­ÀúºÍ´óÑ§Éú»î£¬»¶Ó­¹âÁÙ£¡
+title: å¸ˆåº§æƒ…æŠ¥å¤„ï¼ˆæ ‡ç­¾ï¼‰
+description: è¶£å‘³æ€§å¼ºäºæŠ€æœ¯æ€§çš„åšå®¢, è®°å½•å­¦ä¹ ç»å†å’Œå¤§å­¦ç”Ÿæ´»ï¼Œæ¬¢è¿å…‰ä¸´ï¼
 ---
 
 <div class="well">
-    <h2>ËùÓĞ±êÇ©£º</h2>
+    <h2>æ‰€æœ‰æ ‡ç­¾ï¼š</h2>
     <div id="topic-list"></div>
 </div>
 
@@ -15,7 +15,7 @@ description: È¤Î¶ĞÔÇ¿ÓÚ¼¼ÊõĞÔµÄ²©¿Í, ¼ÇÂ¼Ñ§Ï°¾­ÀúºÍ´óÑ§Éú»î£¬»¶Ó­¹âÁÙ£¡
     {% for post in site.tags[tag.first] %}
       <div class="topic">
           <a class="time-backgroud"></a>
-          <span class="time-meta">{{ post.date | date: "%YÄê%mÔÂ%dÈÕ" }}</span>
+          <span class="time-meta">{{ post.date | date: "%Yå¹´%mæœˆ%dæ—¥" }}</span>
           <div class="title"><a href="{{ post.url }}">{{ post.title }}</a></div>
           <p>{{ post.description }}</p>
       </div>
