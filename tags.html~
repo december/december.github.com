@@ -1,17 +1,18 @@
 ---
 layout: default
-title: 师座情报处（分类）
-description: 趣味性强于技术性的博客，记录学习经历和大学生活，欢迎光临！
+title: 唐久军的博客（标签）
+description: 唐久军的博客, 技术博客, 分享技术, 关注 web，交流学习，共同进步
+---
 
 <div class="well">
-    <h2>所有分类：</h2>
+    <h2>所有标签：</h2>
     <div id="topic-list"></div>
 </div>
 
-{% for category in site.categories %}
-  <div id="{{ category | first }}" class="hide">
+{% for tag in site.tags %}
+  <div id="{{ tag | first }}" class="hide">
 
-    {% for post in site.categories[category.first] %}
+    {% for post in site.tags[tag.first] %}
       <div class="topic">
           <a class="time-backgroud"></a>
           <span class="time-meta">{{ post.date | date: "%Y年%m月%d日" }}</span>

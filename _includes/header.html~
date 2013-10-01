@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="description" content="{{ page.description }}" />
-    <meta name="author" content="师座情报处">
+    <meta name="author" content="唐久军">
     
     <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="/assets/css/blog.css">
