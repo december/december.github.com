@@ -1,11 +1,11 @@
-ï»¿---
+---
 layout: default
-title: å¸ˆåº§æƒ…æŠ¥å¤„ï¼ˆå½’æ¡£ï¼‰
-description: è¶£å‘³æ€§å¼ºäºæŠ€æœ¯æ€§çš„åšå®¢ï¼Œè®°å½•å­¦ä¹ ç”Ÿæ´»å’Œå¤§å­¦ç»å†ï¼Œæ¬¢è¿å…‰ä¸´ï¼
+title: Ê¦×ùÇé±¨´¦£¨¹éµµ£©
+description: È¤Î¶ĞÔÇ¿ÓÚ¼¼ÊõĞÔµÄ²©¿Í£¬¼ÇÂ¼Ñ§Ï°Éú»îºÍ´óÑ§¾­Àú£¬»¶Ó­¹âÁÙ£¡
 ---
 
 <div class="well well-header">
-  <h2>æ‰€æœ‰æ–‡ç« ï¼š</h2>
+  <h2>ËùÓĞÎÄÕÂ£º</h2>
   {% capture year %}{% endcapture %}
   {% capture month %}{% endcapture %}
 
@@ -18,7 +18,7 @@ description: è¶£å‘³æ€§å¼ºäºæŠ€æœ¯æ€§çš„åšå®¢ï¼Œè®°å½•å­¦ä¹ ç”Ÿæ´»å’Œå¤§å­¦ç»å
     {% else %}
       </div>
       {% capture year %}{{ new_year }}{% endcapture %}
-      <h3>{{ year }} å¹´</h3>
+      <h3>{{ year }} Äê</h3>
       <div id"=year"> {% include archives_month.html %}
     {% endif %}
 
