@@ -1,0 +1,17 @@
+---
+layout: default
+title: 唐久军的博客（项目）
+description: 唐久军的博客, 技术博客, 分享技术, 关注 web，交流学习，共同进步
+---
+
+<div class="well well-header">
+    <h3>
+      <a href="https://github.com/tangjiujun/tangjiujun.github.io">唐久军的博客（自己的博客）</a>
+    </h3>
+    <p>
+      使用 Jekyll 静态站点生成工具，生成博客页面。使用 Markdown 语法撰写文章。自己设计并完成 页面布局 和 JS动态效果。文章页面使用 highlight.js 实现代码语法高亮，加入 多说评论 和 百度分享。得益于 Github 的支持，将博客部署在 Github 上。
+      <br/> 博客地址为：<a href="http://tangjiujun.github.io">http://tangjiujun.github.io</a>      
+    </p>
+</div>
+
+{% include comment.html %}
