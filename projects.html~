@@ -6,12 +6,15 @@ description: 趣味性强于技术性的博客，记录学习经历和大学生�
 
 <div class="well well-header">
     <h3>
-      <a href="https://github.com/tangjiujun/tangjiujun.github.io">师座情报处（路云飞的博客）</a>
+      <a href="https://github.com/tangjiujun/luyf.github.io">师座情报处（路云飞的博客）</a>
     </h3>
     <p>
       使用 Jekyll 静态站点生成工具，生成博客页面。使用 Markdown 语法撰写文章。页面布局 和 JS动态效果 套用了网上大神的模板，文章页面使用 highlight.js 实现代码语法高亮，加入 多说评论 和 百度分享。得益于 Github 的支持，将博客部署在 Github 上。
-      <br/> 本站地址：<a href="http://tangjiujun.github.io">http://luyf.github.io</a>      
-    </p>
+	  <br/> 模板来源：<a href="http://tangjiujun.github.io">http://tangjiujun.github.io</a>      
+	</p>
+	<p>TO DO LIST</P>
+	<li>吃饭</li>
+	<li>睡觉</li>
 </div>
 
 {% include comment.html %}
